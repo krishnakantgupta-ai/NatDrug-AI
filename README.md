@@ -293,24 +293,8 @@ Clinical target annotations should be checked against authoritative records. Ext
 Rajiv Gandhi Institute of Information Technology and Biotechnology  
 Bharati Vidyapeeth (Deemed to be University)  
 Pune, Maharashtra, India
+Contact No: +91-6268467956
 
 ---
 
-## 📖 Citation
 
-If you use NatDrug-AI in your research, please cite the associated publication when available.
-
-**Manuscript in preparation:**  
-*NatDrug-AI: An Integrated Machine Learning and Deep Learning Platform for Natural Product Drug-Likeness Assessment and Target-Specific Bioactivity Prediction.*
-
-A formal citation and DOI will be added following publication.
-
----
-
-## 📜 License
-
-A software license has not yet been specified. Add a `LICENSE` file before distributing the project under an open-source license.
-
----
-
-**NatDrug-AI — Integrating Natural Product Chemistry, Cheminformatics, and Artificial Intelligence for Drug Discovery.**
