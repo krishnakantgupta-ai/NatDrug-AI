@@ -1,0 +1,36 @@
+{
+  "UTC_time": "2026-10-30T04:15:20.608306+00:00",
+  "target": "CHEMBL203",
+  "input_file_sha256": "08eea3ccde0c01953f0a7bb46f863b256df480571f61edad4e64da6cc71ce042",
+  "source_release": "TO BE RECORDED by investigator",
+  "python": "3.10.11 (v3.10.11:7d4cc5aa85, Apr  4 2023, 19:05:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-13.6.3-arm64-arm-64bit",
+  "rdkit": "2026.03.6",
+  "scikit_learn": "1.5.0",
+  "numpy": "1.26.4",
+  "pandas": "2.2.2",
+  "arguments": {
+    "csv": "data/CHEMBL203_IC50.csv",
+    "target": "CHEMBL203",
+    "out": "results/legacy_benchmark",
+    "standardization": "parent",
+    "assay_policy": "pooled",
+    "folds": 5,
+    "seed": 42,
+    "trees": 250,
+    "include_mlp": false,
+    "mlp_seeds": "42,52,62",
+    "only_scaffold": false
+  },
+  "curation_counts": {
+    "input_rows": 4991,
+    "positive_numeric_exact_rows": 4991,
+    "valid_structures": 4991,
+    "assays_before_filter": 477,
+    "curated_compounds": 3619,
+    "distinct_scaffolds": 1204,
+    "multi_assay_structures": 715,
+    "assays_after_filter": 477
+  },
+  "design": "Models use predeclared hyperparameters, not optimized on held-out folds. No random fallback. For claims of optimized models use nested CV. A natural-product library without labels is not an external accuracy test."
+}

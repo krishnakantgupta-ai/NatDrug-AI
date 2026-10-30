@@ -1,0 +1,7 @@
+{
+  "sha256": "08eea3ccde0c01953f0a7bb46f863b256df480571f61edad4e64da6cc71ce042",
+  "models": "MLP 2048-256-64-1, dropout 0.2, AdamW, early stopping 18 epochs with inner scaffold split; RF 250 trees, 0.5 max_features, leaf 2, five scaffold GroupKFold outer folds",
+  "seeds": "42,52,62",
+  "python": "3.10.11 (v3.10.11:7d4cc5aa85, Apr  4 2023, 19:05:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-13.6.3-arm64-arm-64bit"
+}

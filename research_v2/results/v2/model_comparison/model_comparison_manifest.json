@@ -1,0 +1,6 @@
+{
+  "status": "COMPLETE",
+  "cross_validation": "5-fold scaffold GroupKFold",
+  "model_selection_note": "Comparing models on CV folds does not establish independent performance. No external candidates used to tune the models.",
+  "training_input_sha256": "08eea3ccde0c01953f0a7bb46f863b256df480571f61edad4e64da6cc71ce042"
+}

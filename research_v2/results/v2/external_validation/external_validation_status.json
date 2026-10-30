@@ -1,0 +1,6 @@
+{
+  "candidate_compounds": 13,
+  "status": "BLOCKED_UNVERIFIED_SOURCE_PUBLICATION_ASSAY_METADATA",
+  "reason": "IMPPAT Source names are not primary assay/publication IDs; ChEMBL training dataset has only assay IDs and no primary document IDs.",
+  "external_validation_metrics": null
+}

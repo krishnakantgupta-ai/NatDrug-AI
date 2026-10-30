@@ -1,0 +1,29 @@
+{
+  "status": "SOURCE_CANDIDATES_ONLY_NOT_EXTERNAL_VALIDATION",
+  "candidate_rows": 13,
+  "candidate_unique_compounds": 13,
+  "all_bioactivity_rows": 31812,
+  "human_EGFR_source_rows": 60,
+  "missing_original_DOI_PMID_assay_ids": true,
+  "manual_review_required": [
+    "original per-measurement DOI/PMID and assay ID",
+    "activity assay comparability",
+    "shared assay or paper with CHEMBL203 training",
+    "duplicate values across NPASS/BindingDB"
+  ],
+  "input_files": {
+    "data/CHEMBL203_IC50.csv": {
+      "sha256": "08eea3ccde0c01953f0a7bb46f863b256df480571f61edad4e64da6cc71ce042",
+      "bytes": 463527
+    },
+    "sources/imppat_chemical_normalized.csv": {
+      "sha256": "95b7cb4855238c86051b44b9f65e0969962e1d6766f2d7f1773d7eef85f42a66",
+      "bytes": 2461736
+    },
+    "sources/imppat_bioactivity.tsv": {
+      "sha256": "6a8aeaa8d7350c2513decf52733da50fbe1917e88cd6f187299a8b88b007e33e",
+      "bytes": 2864778
+    }
+  },
+  "annotation": "Exact compound separation is NOT assay or publication independence."
+}

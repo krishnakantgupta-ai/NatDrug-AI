@@ -1,0 +1,20 @@
+{
+  "UTC_time": "2026-10-30T05:20:03.834103+00:00",
+  "inputs": {
+    "data/CHEMBL203_IC50.csv": {
+      "sha256": "08eea3ccde0c01953f0a7bb46f863b256df480571f61edad4e64da6cc71ce042",
+      "bytes": 463527
+    },
+    "sources/imppat_chemical_normalized.csv": {
+      "sha256": "95b7cb4855238c86051b44b9f65e0969962e1d6766f2d7f1773d7eef85f42a66",
+      "bytes": 2461736
+    },
+    "sources/imppat_bioactivity.tsv": {
+      "sha256": "6a8aeaa8d7350c2513decf52733da50fbe1917e88cd6f187299a8b88b007e33e",
+      "bytes": 2864778
+    }
+  },
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "rdkit": "2025.09.4",
+  "claim_policy": "No validated natural-product external accuracy without primary-paper and assay matching."
+}

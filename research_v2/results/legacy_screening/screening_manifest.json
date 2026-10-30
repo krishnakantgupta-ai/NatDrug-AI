@@ -1,0 +1,22 @@
+{
+  "library_provenance": "IMPPAT 3.0 (2026-09-30), https://cb.imsc.res.in/imppat/download; see source audit",
+  "library_sha256": "e95588a532b400bd6f5bdd795fc340c1a70ede0c52ae4ad5c234b5e4fd1a538d",
+  "training_sha256": "08eea3ccde0c01953f0a7bb46f863b256df480571f61edad4e64da6cc71ce042",
+  "model": "RF_fingerprint_descriptors",
+  "seed": 42,
+  "raw_rows": 18030,
+  "invalid_rows": 0,
+  "duplicate_structures": 0,
+  "training_structure_overlap_excluded": 0,
+  "independent_molecules_screened": 18030,
+  "unique_scaffolds": 5246,
+  "scaffolds_shared_with_training": 4837,
+  "mean_max_similarity": 0.24021522607424997,
+  "fraction_similarity_below_0_4_unvalidated_cutoff": 0.9230171935662784,
+  "rdkit": "2026.03.6",
+  "warning": "Predictions are not biological evidence or external validation. Library NP origin is supplied and must be verified. Activity enrichment requires measured labels.",
+  "predicted_pIC50_median": 4.9774,
+  "predicted_pIC50_q25": 4.77525,
+  "predicted_pIC50_q75": 5.196875,
+  "median_max_similarity": 0.217
+}

@@ -1,0 +1,33 @@
+{
+  "parent__pooled": {
+    "input_rows": 4991,
+    "positive_numeric_exact_rows": 4991,
+    "valid_structures": 4991,
+    "assays_before_filter": 477,
+    "curated_compounds": 3619,
+    "distinct_scaffolds": 1204,
+    "multi_assay_structures": 715,
+    "assays_after_filter": 477
+  },
+  "none__pooled": {
+    "input_rows": 4991,
+    "positive_numeric_exact_rows": 4991,
+    "valid_structures": 4991,
+    "assays_before_filter": 477,
+    "curated_compounds": 3648,
+    "distinct_scaffolds": 1200,
+    "multi_assay_structures": 715,
+    "assays_after_filter": 477
+  },
+  "parent__dominant": {
+    "input_rows": 4991,
+    "positive_numeric_exact_rows": 4991,
+    "valid_structures": 4991,
+    "assays_before_filter": 477,
+    "dominant_assay": "CHEMBL944276",
+    "curated_compounds": 176,
+    "distinct_scaffolds": 60,
+    "multi_assay_structures": 0,
+    "assays_after_filter": 1
+  }
+}

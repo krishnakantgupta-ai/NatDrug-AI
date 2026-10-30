@@ -1,0 +1,33 @@
+{
+  "chemical_file": "sources/imppat_chemical.tsv (official export; local-only)",
+  "bioactivity_file": "sources/imppat_bioactivity.tsv (official export; local-only)",
+  "chemical_sha256": "f1610d4d529f57feba65f673090227bb66b243e855d88d8b2d6816a20a948e9f",
+  "bioactivity_sha256": "6a8aeaa8d7350c2513decf52733da50fbe1917e88cd6f187299a8b88b007e33e",
+  "chemical_records": 18314,
+  "unique_valid_phytochemicals": 18046,
+  "screening_after_overlap": 18030,
+  "training_compound_overlap_excluded": 16,
+  "egfr_curation": {
+    "bio_rows": 31812,
+    "human_egfr_rows": 60,
+    "candidate_activity_tokens": 80,
+    "exact_nM_values": 57,
+    "censored_or_non_numeric": 23,
+    "non_molar_units": 0
+  },
+  "detected_columns": {
+    "chemical_id": "IMPPAT_Phytochemical_identifier",
+    "chemical_smiles": "Canonical_SMILES",
+    "chemical_name": "Phytochemical name_standardised",
+    "bioactivity_id": "IMPPAT_Phytochemical_identifier",
+    "bioactivity_target": "Target_name",
+    "bioactivity_uniprot": "UniProt_identifier",
+    "bioactivity_organism": "Target_organism",
+    "bioactivity_ic50": "IC50",
+    "bioactivity_source": "Source",
+    "bioactivity_reference": null
+  },
+  "warning": "Only structure-disjoint candidates and in-silico predictions are produced. Independent EGFR IC50 evaluation remains provisional until original publications and assay provenance are checked.",
+  "candidate_measured_egfr_records": 13,
+  "candidate_measured_egfr_unique_compounds": 13
+}
